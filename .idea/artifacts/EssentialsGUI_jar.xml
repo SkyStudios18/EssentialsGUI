@@ -1,16 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="EssentialsGUI:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/EssentialsGUI_jar</output-path>
+    <output-path>$USER_HOME$/Documents/plugins</output-path>
     <root id="archive" name="EssentialsGUI.jar">
       <element id="module-output" name="EssentialsGUI" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.8.3.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.8.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.9.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.9.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.10.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.11.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.12.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/1.8-1.12/1.8.8.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

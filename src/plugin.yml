@@ -3,6 +3,13 @@ main: me.cosmic.Main
 version: 1.0.0
 author: CosmicGamer5246
 commands:
+  team:
+    description: team command
+    aliases:
+      - teams
+  unteam:
+    description: unteam command
+
   gms:
     description: Survival Gamemode
   gmc:
