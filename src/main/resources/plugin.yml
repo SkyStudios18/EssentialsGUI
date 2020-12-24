@@ -1,0 +1,33 @@
+name: EssentialsGUI
+main: me.cosmic.Main
+version: 1.0.0
+author: CosmicGamer5246
+api-version: 1.16
+commands:
+  team:
+    description: team command
+    aliases:
+      - teams
+  unteam:
+    description: unteam command
+
+  gms:
+    description: Survival Gamemode
+  gmc:
+    description: Creative Gamemode
+  gmsp:
+    description: Spectator Gamemode
+  gma:
+    description: Adventure Gamemode
+  gamemodes:
+    description: Gamemode GUI
+  medicgui:
+    description: Medic GUI
+  heal25:
+    description: Heal yourself by 25%
+  heal50:
+    description: Heal yourself by 50%
+  heal75:
+    description: Heal yourself by 75%
+  heal100:
+    description: Heal yourself by 100%

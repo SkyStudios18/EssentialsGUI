@@ -35,7 +35,7 @@ public class ManagementGUI implements Listener {
             kick.setItemMeta(kMeta);
             gui.setItem(12, kick);
 
-            ItemStack ban = new ItemStack(Material.REDSTONE_TORCH_ON);
+            ItemStack ban = new ItemStack(Material.REDSTONE_TORCH);
             ItemMeta bMeta = ban.getItemMeta();
             bMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Ban player");
             bMeta.setLore(Lists.newArrayList(ChatColor.GRAY + "Click here to " + ChatColor.YELLOW + "ban" + ChatColor.GRAY + " the player"));

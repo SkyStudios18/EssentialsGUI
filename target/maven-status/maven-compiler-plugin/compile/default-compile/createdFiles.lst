@@ -1,0 +1,13 @@
+me\cosmic\playermanagement\PlayersGUI.class
+me\cosmic\teams\Messaging$TeamMessaging.class
+me\cosmic\playermanagement\ManagementGUI.class
+me\cosmic\Main.class
+me\cosmic\playermanagement\ManageType.class
+me\cosmic\teams\TeamCommands.class
+me\cosmic\MedicEvents.class
+me\cosmic\teams\TeamHandler.class
+me\cosmic\teams\Messaging.class
+me\cosmic\teams\Team.class
+me\cosmic\teams\TeamInviteResponse.class
+me\cosmic\Commands.class
+me\cosmic\GamemodeEvents.class

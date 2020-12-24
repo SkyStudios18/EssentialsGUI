@@ -2,6 +2,7 @@ name: EssentialsGUI
 main: me.cosmic.Main
 version: 1.0.0
 author: CosmicGamer5246
+api-version: 1.16
 commands:
   team:
     description: team command

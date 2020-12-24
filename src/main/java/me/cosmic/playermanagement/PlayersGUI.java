@@ -49,7 +49,7 @@ public class PlayersGUI implements Listener {
         int i = 0;
 
         for (Player p : players) {
-            ItemStack item = new ItemStack(Material.SKULL_ITEM, 1, (byte) 3);
+            ItemStack item = new ItemStack(Material.SKELETON_SKULL);
             // don't really know which one it is lol
             SkullMeta meta = (SkullMeta) item.getItemMeta();
             meta.setOwner(p.getName());
@@ -87,7 +87,7 @@ public class PlayersGUI implements Listener {
 
     @EventHandler
     public void onClose(InventoryCloseEvent e) {
-        if (e.getInventory().getTitle().equals("Player Management")) {
+        if (e.getView().getTitle().equals("Player Management")) {
             guiPlayers.remove((Player) e.getPlayer());
         }
     }
@@ -96,7 +96,7 @@ public class PlayersGUI implements Listener {
     public void onClick(InventoryClickEvent e) {
         Player player = (Player) e.getWhoClicked();
         if (e.getClickedInventory() != null) {
-            if (e.getView().getTopInventory().getTitle().equals("Player Management")) {
+            if (e.getView().getTitle().equals("Player Management")) {
                 e.setCancelled(true);
 
                 if (e.getClickedInventory().equals(e.getView().getTopInventory())) {
